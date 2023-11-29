@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100,900&family=Roboto:ital,wght@1,100;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.xx{
+    font-weight: 700;
+    font-size: larger;
+}
+.x{
+    height: 80px;
+    background-color: transparent;
+    margin: 10px;
+    border-radius: 30px;
+    color: black;
+  
+}
+.navbar-toggler{
+    border: none;
+}
+.head{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    z-index: 99;
+    top: 200px;
+    overflow: hidden;
+    text-wrap: nowrap;
+}
+.head h3{
+    font-weight: 700;
+}
+.head h1{
+    font-weight: 900;
+    font-size: 8vw;
+}
+.po{
+    color: yellow;
+}
+.poo{
+    color: white;
+}
+.hmm{
+    filter: drop-shadow(5px 5px 10px rgb(18, 18, 16));
+}
+
+
+
+
+.name {
+    height: 100vh;
+    width: 100%;
+    background-color: #FFA33C;
+    overflow: hidden;
+ 
+  
+
+}
+.m{
+    color:whitesmoke;
+    font-weight: 100;
+}
+.v{
+    width: 180px;
+    height: 60px;
+    font-size: large;
+}
+
+
+.name h1 {
+    margin-top: 150px;
+    color: white;
+    font-size: 38vw;
+    font-weight: 700;
+    white-space: nowrap;
+    text-transform: uppercase;
+ 
+}
+
+.page1 {
+    height: 100%;
+    width: 100%;
+    background: url("IMG_0076.JPG") center center no-repeat;
+    background-size: cover;
+    position: relative;
+   
+}
+.page1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity by changing the last value (0.5 in this case) */
+    z-index: 1; /* Make sure the overlay is above the background image */
+}
+
+.page2 {
+    height: 100%;
+    width: 100%;
+    background-color: #337CCF;
+    overflow: hidden;
+    /* text-wrap: nowrap; */
+}
+.page3 {
+    height: 100%;
+    width: 100%;
+    background-color: #F05941;
+    overflow: hidden;
+    /* text-wrap: nowrap; */
+}
+.page4 {
+    height: 100%;
+    width: 100%;
+    background-color: #BE3144;
+    overflow: hidden;
+    /* text-wrap: nowrap; */
+}
+.page5 {
+    height: 100%;
+    width: 100%;
+    background-color: #2B2A4C;
+    overflow: hidden;
+    
+}
+
+.col1{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+.n h1 {
+    height: 100%; /* Set each column to take full height */
+margin-top: 180px;
+    font-size: 10vw;
+    font-weight: 900;
+    color: white;
+}
+.lo{
+  color: yellow;
+}
+.my{
+  font-size: 5vw;
+    font-weight: 700;
+}
+.n1 .n11{
+  margin-top: 30%;
+  margin-bottom: 60px;
+  line-height: 40px;
+  
+ 
+  font-size: 2vw;
+    font-weight: 700;
+}
+.cy{
+    height: 200px;
+    width: 200px;
+    background-color: #337CCF;
+    border-radius: 50%;
+}
+.op{
+    background-color: yellow;
+    height: 15px;
+    border-radius: 15px;
+    width: 100%;
+    margin-top: 15px;
+
+    
+}
+.op1{
+    background-color: yellow;
+    height: 15px;
+    border-radius: 15px;
+    width: 85%;
+    margin-top: 15px;
+
+    
+}
+.op2{
+    background-color: yellow;
+    height: 15px;
+    border-radius: 15px;
+    width: 70%;
+    margin-top: 15px;
+
+    
+}
+.op3{
+    background-color: yellow;
+    height: 15px;
+    border-radius: 15px;
+    width: 85%;
+    margin-top: 15px;
+
+    
+}
+.op4{
+    background-color: yellow;
+    height: 15px;
+    border-radius: 15px;
+    width: 60%;
+    margin-top: 15px;
+
+    
+}
+.op5{
+    background-color: yellow;
+    height: 15px;
+    border-radius: 15px;
+    width: 40%;
+    margin-top: 15px;
+
+    
+}
+.op6{
+    background-color: yellow;
+    height: 15px;
+    border-radius: 15px;
+    width: 80%;
+    margin-top: 15px;
+
+    
+}
+.op7{
+    background-color: yellow;
+    height: 15px;
+    border-radius: 15px;
+    width: 40%;
+    margin-top: 15px;
+
+    
+}
+
+.opp{
+    background-color: white;
+    height: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.hun{
+    font-weight: 700;
+    margin-top: 10px;
+}
+.m{
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.icon{
+    height: 40px;
+    width: 40px;
+}
+.p1{
+    background-color: aliceblue;
+    width: 400px;
+    border-radius: 10px;
+    height: 450px;
+    position: relative;
+    
+}
+.what{
+    font-size: 4vw;
+    font-weight: 800;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.icon1{
+    font-size: 3vw;
+    font-weight: 600;
+}
+.pa{
+    line-height: 40px;
+}
+.p1:hover{
+    background-color: #EA906C;
+    color: white;
+}
+.con{
+    height: 80px;
+    margin-top: 70px;
+    color: white;
+    border-bottom: 2px solid #EA906C;
+}
+.con h1{
+    font-size: 4vw;
+}
+.fff{
+    background-color: rgb(229, 226, 226);
+    padding: 40px;
+    border-radius: 40px;
+}
+.y{
+    text-decoration: none;
+}
